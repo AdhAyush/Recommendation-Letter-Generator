@@ -6,29 +6,45 @@ https://recommendation-generator.bct.itclub.pp.ua/
 # How to run?
 
 * Create a python virtual environment
-=> python -m venv venv
 
-* Activate virtual environment
+```
+ python -m venv venv
+```
+
+Activate virtual environment
 Firstly, go to the project directory.
 Then run,
 # In windows 
-=> ./venv/Scripts/Activate.ps1
-# In *Unix
-=> source venv/bin/activate
+```
+./venv/Scripts/Activate.ps1
+```
 
-* Install all the requirements
-=> python -m pip install -r ./requirements.txt
+# In Unix
+```
+source venv/bin/activate
+```
+
+Install all the requirements
+```
+python -m pip install -r ./requirements.txt
+```
 
 This repo is in production. Configure database before running locally. 
 
-* Perform migration
-=> python manage.py migrate
+Perform migration
+```
+python manage.py migrate
+```
 
-* Create a superuser
-=> python manage.py createsuperuser
+Create a superuser
+```
+python manage.py createsuperuser
+```
 
-* Activate the server
-=> python manage.py runserver
+Activate the server
+```
+ python manage.py runserver
+```
 
 * Open web browser and you know what to do, right?
 # For admin
@@ -49,7 +65,7 @@ This repo is in production. Configure database before running locally.
 	3. View requests (You can also view the list of students that you have recommended.)
 	4. Generate the recommendation letter 
 	
-==================================================================================================================
+
 
 
 # Enjoy & have a good day.
