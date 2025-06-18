@@ -1,9 +1,9 @@
 # reco_letter
 
+This project is hosted in college server. Following is link to access it:
+https://recommendation-generator.bct.itclub.pp.ua/
+
 # How to run?
-================================================================================================================== 
-* Install the packages from package.json file 
-=> npm install
 
 * Create a python virtual environment
 => python -m venv venv
@@ -19,6 +19,8 @@ Then run,
 * Install all the requirements
 => python -m pip install -r ./requirements.txt
 
+This repo is in production. Configure database before running locally. 
+
 * Perform migration
 => python manage.py migrate
 
@@ -30,11 +32,11 @@ Then run,
 
 * Open web browser and you know what to do, right?
 # For admin
-	1. Open admin panel
+	1. Open admin panel, 
 	2. Create Programs: Example BE
 	3. Create Departments: Example BCT
 	4. Create Teacher info
-# Remember: You need to create a superuser for the teacher with his/her full name consisting of his/her unique id (available in the teacher's info) after a slash '/'. This is how the code works.
+
 
 # For student
 	1. Register
@@ -49,7 +51,6 @@ Then run,
 	
 ==================================================================================================================
 
-# We have used the app password for SMTP in the settings.py file. We may delete it due to security reasons. In case you get a SMTP error, you need to enable app password for a valid gmail account and use that password for SMTP in settings.py file.  
 
 # Enjoy & have a good day.
 # Recommendation-Letter-Generator
